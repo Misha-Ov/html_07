@@ -2,17 +2,21 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
 
+* {
+    outline: 0px solid lightcoral;
+}
+
 body {
     background-color: #dce0d9;
     font-family: "Montserrat Alternates", sans-serif;
 }
 
-* {
-    outline: 0px solid lightcoral;
-}
-
 .header {
     padding: 20px 0;
+}
+
+main {
+
 }
 
 .nav {
@@ -35,9 +39,9 @@ img {
 }
 
 .nav__item {
-    width: 32%;
+    width: 30%;
     height: 100%;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .nav__link {
@@ -52,12 +56,12 @@ img {
     align-items: center;
 }
 
-.nav__brand_logo {
+.nav__brand-logo {
     height: 60px;
     border-radius: 50%;
 }
 
-.nav__brand_name {
+.nav__brand-name {
     margin-left: 5px;
     font-family: "Comfortaa", sans-serif;
     text-transform: uppercase;
@@ -65,8 +69,9 @@ img {
     font-size: 1.6rem;
 }
 
-.nav__brand_name span {
+.nav__brand-name span {
     font-size: 2rem;
+    font-weight: 500;
 }
 
 .nav__item--search {
@@ -90,6 +95,7 @@ img {
     position: relative;
     padding: 100px auto;
     margin-right: 13px;
+    margin-bottom: 5px;
 }
 
 .nav__link--auth {
@@ -110,4 +116,65 @@ img {
     text-shadow: none;
     box-shadow: none;
     background-color: #ff573d;
+    font-weight: 600;
 }
+
+.page-index main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 30%;
+    padding: 20px;
+    min-width: 450px;
+    /* min-height: 500px; */
+    background-color: #fbf6ef;
+    border-radius: 20px;
+    border: 1px solid lightgrey;
+    margin: 0px 20px 20px 20px;
+
+}
+
+
+.section__header,
+.section__body {
+    margin-bottom: 20px;
+}
+
+.section__table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.2rem;}
+
+.table__row {
+    width: 100%;
+    display: flex;
+    margin: 3px auto;
+}
+
+.table__row--spec {
+    width: 100%;
+    flex-direction: column;
+}
+
+.table__col {
+    width: 18%;
+    min-width: 120px;
+}
+
+.table__col--key {
+    margin-left: auto;
+    font-weight: 500;
+}
+
+.table__col--value {
+    margin-right: auto;
+}
+
+.table__col--spec {
+    width: 100%;
+}
+
