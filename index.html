@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CarPool - Main</title>
+    <link rel="icon" href="images/logo.png">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -14,7 +15,7 @@
                 <div class="nav__item nav__item--brand">
                     <div class="nav__brand-logo"><img src="images/logo.png" alt="logo.png"></div>
                     <div class="nav__brand-name">
-                        <h1><span>C</span>ar<span>P</span>oo<span>L</span></h1>
+                        <a class="nav__link nav__link--index" href="#" ><h1>CarPooL</h1></a>
                     </div>
                 </div>
                 <div class="nav__item nav__item--search">
@@ -37,183 +38,92 @@
                 </div>
                 <div class="section__body">
                     <div class="section__table">
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Ціна</p>
+                        <div class="table__container table__container--spec">
+                            <div class="table__divider">
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Ціна</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>14 500 $</p>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Покоління</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>VII</p>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Кузов</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>Седан</p>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Виробник</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>Германія</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="table__col table__col--value">
-                                <p>14 500 $</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Покоління</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>VII</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Кузов</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>Седан</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Виробник</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>Германія</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Паливо</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>Бензин</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Коробка</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>Автомат</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Колір</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>Чорний металік</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Стан</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>Нова, розмитненна</p>
-                            </div>
-                        </div>
-                        <div class="table__row table__row--spec">
-                            <div class="table__col table__col--key table__col--spec">
-                                <p>Комфорт</p>
-                            </div>
-                            <div class="table__col table__col--value table__col--spec">
-                                <p>Люк, Бортовий комп'ютер, Датчик дощу, Підігрів дзеркал, Тоновані вікна, Запуск двигуна з кнопки, Панорамний дах, Система доступу без ключа, Система   «старт-стоп», Мультифункціональне кермо, Електропривід дзеркал, Адаптивний круїз, Круїз контроль</p>
+                            <div class="table__divider">
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Паливо</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>Бензин</p>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Коробка</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>Автомат</p>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Колір</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>Чорний металік</p>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Стан</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>Нова, розмитненна</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="table__row table__row--spec">
-                            <div class="table__col table__col--key table__col--spec">
-                                <p>Безпека</p>
+                        <div class="table__container">
+                            <div class="table__row table__row--spec">
+                                <div class="table__col table__col--key table__col--spec">
+                                    <p>Комфорт</p>
+                                </div>
+                                <div class="table__col table__col--value table__col--spec">
+                                    <p>Люк, Бортовий комп'ютер, Датчик дощу, Підігрів дзеркал, Тоновані вікна, Запуск двигуна з кнопки, Панорамний дах, Система доступу без ключа, Система   «старт-стоп», Мультифункціональне кермо, Електропривід дзеркал, Адаптивний круїз, Круїз контроль</p>
+                                </div>
                             </div>
-                            <div class="table__col table__col--value table__col--spec">
-                                <p>Центральний замок, Антиблокувальна система (ABS), Система стабілізації (ESP), Імобілайзер, Антипробуксовочна система (ASR), Контроль сліпих зон, Контроль за смугою руху, Датчик тиску в шинах</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-container">
-                    <div class="section__footer">
-                        <div class="section__button">
-                            <a href="#" class="section__link">Детальніше</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="section">
-                <div class="section__header">
-                    <div class="section__image"><img src="images/vw_jetta_1.png" alt="vw_jetta_1.png"></div>
-                    <div class="section__title">
-                        <h2>Volkswagen Jetta 2020</h2>
-                    </div>
-                </div>
-                <div class="section__body">
-                    <div class="section__table">
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Ціна</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>14 500 $</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Покоління</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>VII</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Кузов</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>Седан</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Виробник</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>Германія</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Паливо</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>Бензин</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Коробка</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>Автомат</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Колір</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>Чорний металік</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Стан</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>Нова, розмитненна</p>
-                            </div>
-                        </div>
-                        <div class="table__row table__row--spec">
-                            <div class="table__col table__col--key table__col--spec">
-                                <p>Комфорт</p>
-                            </div>
-                            <div class="table__col table__col--value table__col--spec">
-                                <p>Люк, Бортовий комп'ютер, Датчик дощу, Підігрів дзеркал, Тоновані вікна, Запуск двигуна з кнопки, Панорамний дах, Система доступу без ключа, Система   «старт-стоп», Мультифункціональне кермо, Електропривід дзеркал, Адаптивний круїз, Круїз контроль</p>
-                            </div>
-                        </div>
-                        <div class="table__row table__row--spec">
-                            <div class="table__col table__col--key table__col--spec">
-                                <p>Безпека</p>
-                            </div>
-                            <div class="table__col table__col--value table__col--spec">
-                                <p>Центральний замок, Антиблокувальна система (ABS), Система стабілізації (ESP), Імобілайзер, Антипробуксовочна система (ASR), Контроль сліпих зон, Контроль за смугою руху, Датчик тиску в шинах</p>
+                            <div class="table__row table__row--spec">
+                                <div class="table__col table__col--key table__col--spec">
+                                    <p>Безпека</p>
+                                </div>
+                                <div class="table__col table__col--value table__col--spec">
+                                    <p>Центральний замок, Антиблокувальна система (ABS), Система стабілізації (ESP), Імобілайзер, Антипробуксовочна система (ASR), Контроль сліпих зон, Контроль за смугою руху, Датчик тиску в шинах</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -235,183 +145,92 @@
                 </div>
                 <div class="section__body">
                     <div class="section__table">
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Ціна</p>
+                        <div class="table__container table__container--spec">
+                            <div class="table__divider">
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Ціна</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>14 500 $</p>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Покоління</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>VII</p>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Кузов</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>Седан</p>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Виробник</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>Германія</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="table__col table__col--value">
-                                <p>14 500 $</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Покоління</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>VII</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Кузов</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>Седан</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Виробник</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>Германія</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Паливо</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>Бензин</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Коробка</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>Автомат</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Колір</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>Чорний металік</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Стан</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>Нова, розмитненна</p>
-                            </div>
-                        </div>
-                        <div class="table__row table__row--spec">
-                            <div class="table__col table__col--key table__col--spec">
-                                <p>Комфорт</p>
-                            </div>
-                            <div class="table__col table__col--value table__col--spec">
-                                <p>Люк, Бортовий комп'ютер, Датчик дощу, Підігрів дзеркал, Тоновані вікна, Запуск двигуна з кнопки, Панорамний дах, Система доступу без ключа, Система   «старт-стоп», Мультифункціональне кермо, Електропривід дзеркал, Адаптивний круїз, Круїз контроль</p>
+                            <div class="table__divider">
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Паливо</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>Бензин</p>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Коробка</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>Автомат</p>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Колір</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>Чорний металік</p>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Стан</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>Нова, розмитненна</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="table__row table__row--spec">
-                            <div class="table__col table__col--key table__col--spec">
-                                <p>Безпека</p>
+                        <div class="table__container">
+                            <div class="table__row table__row--spec">
+                                <div class="table__col table__col--key table__col--spec">
+                                    <p>Комфорт</p>
+                                </div>
+                                <div class="table__col table__col--value table__col--spec">
+                                    <p>Люк, Бортовий комп'ютер, Датчик дощу, Підігрів дзеркал, Тоновані вікна, Запуск двигуна з кнопки, Панорамний дах, Система доступу без ключа, Система   «старт-стоп», Мультифункціональне кермо, Електропривід дзеркал, Адаптивний круїз, Круїз контроль</p>
+                                </div>
                             </div>
-                            <div class="table__col table__col--value table__col--spec">
-                                <p>Центральний замок, Антиблокувальна система (ABS), Система стабілізації (ESP), Імобілайзер, Антипробуксовочна система (ASR), Контроль сліпих зон, Контроль за смугою руху, Датчик тиску в шинах</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-container">
-                    <div class="section__footer">
-                        <div class="section__button">
-                            <a href="#" class="section__link">Детальніше</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="section">
-                <div class="section__header">
-                    <div class="section__image"><img src="images/vw_jetta_1.png" alt="vw_jetta_1.png"></div>
-                    <div class="section__title">
-                        <h2>Volkswagen Jetta 2020</h2>
-                    </div>
-                </div>
-                <div class="section__body">
-                    <div class="section__table">
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Ціна</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>14 500 $</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Покоління</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>VII</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Кузов</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>Седан</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Виробник</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>Германія</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Паливо</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>Бензин</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Коробка</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>Автомат</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Колір</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>Чорний металік</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Стан</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>Нова, розмитненна</p>
-                            </div>
-                        </div>
-                        <div class="table__row table__row--spec">
-                            <div class="table__col table__col--key table__col--spec">
-                                <p>Комфорт</p>
-                            </div>
-                            <div class="table__col table__col--value table__col--spec">
-                                <p>Люк, Бортовий комп'ютер, Датчик дощу, Підігрів дзеркал, Тоновані вікна, Запуск двигуна з кнопки, Панорамний дах, Система доступу без ключа, Система   «старт-стоп», Мультифункціональне кермо, Електропривід дзеркал, Адаптивний круїз, Круїз контроль</p>
-                            </div>
-                        </div>
-                        <div class="table__row table__row--spec">
-                            <div class="table__col table__col--key table__col--spec">
-                                <p>Безпека</p>
-                            </div>
-                            <div class="table__col table__col--value table__col--spec">
-                                <p>Центральний замок, Антиблокувальна система (ABS), Система стабілізації (ESP), Імобілайзер, Антипробуксовочна система (ASR), Контроль сліпих зон, Контроль за смугою руху, Датчик тиску в шинах</p>
+                            <div class="table__row table__row--spec">
+                                <div class="table__col table__col--key table__col--spec">
+                                    <p>Безпека</p>
+                                </div>
+                                <div class="table__col table__col--value table__col--spec">
+                                    <p>Центральний замок, Антиблокувальна система (ABS), Система стабілізації (ESP), Імобілайзер, Антипробуксовочна система (ASR), Контроль сліпих зон, Контроль за смугою руху, Датчик тиску в шинах</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -433,84 +252,92 @@
                 </div>
                 <div class="section__body">
                     <div class="section__table">
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Ціна</p>
+                        <div class="table__container table__container--spec">
+                            <div class="table__divider">
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Ціна</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>14 500 $</p>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Покоління</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>VII</p>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Кузов</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>Седан</p>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Виробник</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>Германія</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="table__col table__col--value">
-                                <p>14 500 $</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Покоління</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>VII</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Кузов</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>Седан</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Виробник</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>Германія</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Паливо</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>Бензин</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Коробка</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>Автомат</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Колір</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>Чорний металік</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Стан</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>Нова, розмитненна</p>
-                            </div>
-                        </div>
-                        <div class="table__row table__row--spec">
-                            <div class="table__col table__col--key table__col--spec">
-                                <p>Комфорт</p>
-                            </div>
-                            <div class="table__col table__col--value table__col--spec">
-                                <p>Люк, Бортовий комп'ютер, Датчик дощу, Підігрів дзеркал, Тоновані вікна, Запуск двигуна з кнопки, Панорамний дах, Система доступу без ключа, Система   «старт-стоп», Мультифункціональне кермо, Електропривід дзеркал, Адаптивний круїз, Круїз контроль</p>
+                            <div class="table__divider">
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Паливо</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>Бензин</p>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Коробка</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>Автомат</p>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Колір</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>Чорний металік</p>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Стан</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>Нова, розмитненна</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="table__row table__row--spec">
-                            <div class="table__col table__col--key table__col--spec">
-                                <p>Безпека</p>
+                        <div class="table__container">
+                            <div class="table__row table__row--spec">
+                                <div class="table__col table__col--key table__col--spec">
+                                    <p>Комфорт</p>
+                                </div>
+                                <div class="table__col table__col--value table__col--spec">
+                                    <p>Люк, Бортовий комп'ютер, Датчик дощу, Підігрів дзеркал, Тоновані вікна, Запуск двигуна з кнопки, Панорамний дах, Система доступу без ключа, Система   «старт-стоп», Мультифункціональне кермо, Електропривід дзеркал, Адаптивний круїз, Круїз контроль</p>
+                                </div>
                             </div>
-                            <div class="table__col table__col--value table__col--spec">
-                                <p>Центральний замок, Антиблокувальна система (ABS), Система стабілізації (ESP), Імобілайзер, Антипробуксовочна система (ASR), Контроль сліпих зон, Контроль за смугою руху, Датчик тиску в шинах</p>
+                            <div class="table__row table__row--spec">
+                                <div class="table__col table__col--key table__col--spec">
+                                    <p>Безпека</p>
+                                </div>
+                                <div class="table__col table__col--value table__col--spec">
+                                    <p>Центральний замок, Антиблокувальна система (ABS), Система стабілізації (ESP), Імобілайзер, Антипробуксовочна система (ASR), Контроль сліпих зон, Контроль за смугою руху, Датчик тиску в шинах</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -532,84 +359,306 @@
                 </div>
                 <div class="section__body">
                     <div class="section__table">
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Ціна</p>
+                        <div class="table__container table__container--spec">
+                            <div class="table__divider">
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Ціна</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>14 500 $</p>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Покоління</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>VII</p>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Кузов</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>Седан</p>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Виробник</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>Германія</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="table__col table__col--value">
-                                <p>14 500 $</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Покоління</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>VII</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Кузов</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>Седан</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Виробник</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>Германія</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Паливо</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>Бензин</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Коробка</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>Автомат</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Колір</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>Чорний металік</p>
-                            </div>
-                        </div>
-                        <div class="table__row">
-                            <div class="table__col table__col--key">
-                                <p>Стан</p>
-                            </div>
-                            <div class="table__col table__col--value">
-                                <p>Нова, розмитненна</p>
-                            </div>
-                        </div>
-                        <div class="table__row table__row--spec">
-                            <div class="table__col table__col--key table__col--spec">
-                                <p>Комфорт</p>
-                            </div>
-                            <div class="table__col table__col--value table__col--spec">
-                                <p>Люк, Бортовий комп'ютер, Датчик дощу, Підігрів дзеркал, Тоновані вікна, Запуск двигуна з кнопки, Панорамний дах, Система доступу без ключа, Система   «старт-стоп», Мультифункціональне кермо, Електропривід дзеркал, Адаптивний круїз, Круїз контроль</p>
+                            <div class="table__divider">
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Паливо</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>Бензин</p>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Коробка</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>Автомат</p>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Колір</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>Чорний металік</p>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Стан</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>Нова, розмитненна</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="table__row table__row--spec">
-                            <div class="table__col table__col--key table__col--spec">
-                                <p>Безпека</p>
+                        <div class="table__container">
+                            <div class="table__row table__row--spec">
+                                <div class="table__col table__col--key table__col--spec">
+                                    <p>Комфорт</p>
+                                </div>
+                                <div class="table__col table__col--value table__col--spec">
+                                    <p>Люк, Бортовий комп'ютер, Датчик дощу, Підігрів дзеркал, Тоновані вікна, Запуск двигуна з кнопки, Панорамний дах, Система доступу без ключа, Система   «старт-стоп», Мультифункціональне кермо, Електропривід дзеркал, Адаптивний круїз, Круїз контроль</p>
+                                </div>
                             </div>
-                            <div class="table__col table__col--value table__col--spec">
-                                <p>Центральний замок, Антиблокувальна система (ABS), Система стабілізації (ESP), Імобілайзер, Антипробуксовочна система (ASR), Контроль сліпих зон, Контроль за смугою руху, Датчик тиску в шинах Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti non rem totam perferendis velit. Ab eum minima delectus fugit vitae a placeat? Corporis quo eos rem autem blanditiis, quis nobis quia maiores amet adipisci sunt labore minus rerum vitae non nihil, culpa neque cumque. Provident odit omnis maxime obcaecati non!</p>
+                            <div class="table__row table__row--spec">
+                                <div class="table__col table__col--key table__col--spec">
+                                    <p>Безпека</p>
+                                </div>
+                                <div class="table__col table__col--value table__col--spec">
+                                    <p>Центральний замок, Антиблокувальна система (ABS), Система стабілізації (ESP), Імобілайзер, Антипробуксовочна система (ASR), Контроль сліпих зон, Контроль за смугою руху, Датчик тиску в шинах</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-container">
+                    <div class="section__footer">
+                        <div class="section__button">
+                            <a href="#" class="section__link">Детальніше</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="section__header">
+                    <div class="section__image"><img src="images/vw_jetta_1.png" alt="vw_jetta_1.png"></div>
+                    <div class="section__title">
+                        <h2>Volkswagen Jetta 2020</h2>
+                    </div>
+                </div>
+                <div class="section__body">
+                    <div class="section__table">
+                        <div class="table__container table__container--spec">
+                            <div class="table__divider">
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Ціна</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>14 500 $</p>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Покоління</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>VII</p>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Кузов</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>Седан</p>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Виробник</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>Германія</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="table__divider">
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Паливо</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>Бензин</p>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Коробка</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>Автомат</p>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Колір</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>Чорний металік</p>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Стан</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>Нова, розмитненна</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table__container">
+                            <div class="table__row table__row--spec">
+                                <div class="table__col table__col--key table__col--spec">
+                                    <p>Комфорт</p>
+                                </div>
+                                <div class="table__col table__col--value table__col--spec">
+                                    <p>Люк, Бортовий комп'ютер, Датчик дощу, Підігрів дзеркал, Тоновані вікна, Запуск двигуна з кнопки, Панорамний дах, Система доступу без ключа, Система   «старт-стоп», Мультифункціональне кермо, Електропривід дзеркал, Адаптивний круїз, Круїз контроль</p>
+                                </div>
+                            </div>
+                            <div class="table__row table__row--spec">
+                                <div class="table__col table__col--key table__col--spec">
+                                    <p>Безпека</p>
+                                </div>
+                                <div class="table__col table__col--value table__col--spec">
+                                    <p>Центральний замок, Антиблокувальна система (ABS), Система стабілізації (ESP), Імобілайзер, Антипробуксовочна система (ASR), Контроль сліпих зон, Контроль за смугою руху, Датчик тиску в шинах</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-container">
+                    <div class="section__footer">
+                        <div class="section__button">
+                            <a href="#" class="section__link">Детальніше</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="section__header">
+                    <div class="section__image"><img src="images/vw_jetta_1.png" alt="vw_jetta_1.png"></div>
+                    <div class="section__title">
+                        <h2>Volkswagen Jetta 2020</h2>
+                    </div>
+                </div>
+                <div class="section__body">
+                    <div class="section__table">
+                        <div class="table__container table__container--spec">
+                            <div class="table__divider">
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Ціна</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>14 500 $</p>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Покоління</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>VII</p>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Кузов</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>Седан</p>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Виробник</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>Германія</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="table__divider">
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Паливо</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>Бензин</p>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Коробка</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>Автомат</p>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Колір</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>Чорний металік</p>
+                                    </div>
+                                </div>
+                                <div class="table__row">
+                                    <div class="table__col table__col--key">
+                                        <p>Стан</p>
+                                    </div>
+                                    <div class="table__col table__col--value">
+                                        <p>Нова, розмитненна</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table__container">
+                            <div class="table__row table__row--spec">
+                                <div class="table__col table__col--key table__col--spec">
+                                    <p>Комфорт</p>
+                                </div>
+                                <div class="table__col table__col--value table__col--spec">
+                                    <p>Люк, Бортовий комп'ютер, Датчик дощу, Підігрів дзеркал, Тоновані вікна, Запуск двигуна з кнопки, Панорамний дах, Система доступу без ключа, Система   «старт-стоп», Мультифункціональне кермо, Електропривід дзеркал, Адаптивний круїз, Круїз контроль</p>
+                                </div>
+                            </div>
+                            <div class="table__row table__row--spec">
+                                <div class="table__col table__col--key table__col--spec">
+                                    <p>Безпека</p>
+                                </div>
+                                <div class="table__col table__col--value table__col--spec">
+                                    <p>Центральний замок, Антиблокувальна система (ABS), Система стабілізації (ESP), Імобілайзер, Антипробуксовочна система (ASR), Контроль сліпих зон, Контроль за смугою руху, Датчик тиску в шинах</p>
+                                </div>
                             </div>
                         </div>
                     </div>
