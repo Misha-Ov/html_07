@@ -170,6 +170,10 @@ img {
     border-radius: 10px;
 }
 
+.section__image {
+    width: 100%;
+}
+
 .section__title {
     text-align: center;
     font-size: 2rem;
@@ -279,7 +283,7 @@ img {
     font-size: 2rem;
 }
 
-.input-group {
+.card__input-group {
     position: relative;
     display: flex;
     justify-content: center;
@@ -415,13 +419,49 @@ img {
     margin-bottom: 20px;
 }
 
-.input-group__select {
-    width: 500px;
-    height: 30px;
+.form__part {
+    width: 45%;
 }
 
-.input_group__select-cont {
-    margin-bottom: 20px;
+.form__part--fields .form__input-group {
+    width: 100%;
+}
+
+.input_group__range-cont {
+    width: 45%;
+}
+
+.form__input-group--range {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-group__select,
+.input-group__number {
+    width: 100%;
+    height: 35px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    border: 1px solid blagck;
+}
+
+.page-search .input-group__label {
+    all: inherit;
+    margin-bottom: 3px;
+    margin-left: 15px;
+}
+
+.form__part--horizontal .form__input-group {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.input-group__label label {
+    font-weight: 500;
 }
 
 .form-title-cont,
@@ -429,11 +469,11 @@ img {
 .form__part-name-cont {
     margin-bottom: 20px;
     text-align: center;
-
 }
 
 .form-title,
-.form-subtitle {
+.form-subtitle,
+.form__part-name {
 font-size: 2rem;
 font-weight: 500;
 }
@@ -441,6 +481,22 @@ font-weight: 500;
 .form-subtitle, 
 .form__part-name {
     font-size: 1.5rem;
+}
+
+.form__button-cont .form__button {
+    margin: 20px 30px;
+}
+
+.form__button--reset {
+    background-color: #fbf6ef;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 0px rgb(70, 70, 70);
+    box-shadow: 3px 4px 0px rgb(70, 70, 70);
+}
+
+.form__button--reset:hover {
+    background-color: white;
 }
 
 /* footer */

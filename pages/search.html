@@ -38,11 +38,28 @@
                 </div>
                 <form method="post" action="https://formtester.goodbytes.be/post.php" class="form">
                     <div class="form__stack">
-                        <div class="form__part">
+                        <div class="form__part form__part--fields">
+                            <div class="form__input-group form__input-group--range">
+                                <div class="input_group__range-cont">
+                                    <div class="input-group__label input-group__label--range">
+                                        <label for="price_from">Ціна від</label>
+                                    </div>
+                                    <input id="price_from" type="number" class="input-group__number">
+                                </div>
+                                <div class="input_group__range-cont">
+                                    <div class="input-group__label input-group__label--range">
+                                        <label for="price_to">Ціна до</label>
+                                    </div>
+                                    <input id="price_to" type="number" class="input-group__number">
+                                </div>
+                            </div>
                             <div class="form__input-group">
-                                <div class="input-group__label"><label for=""></label></div>
+                                <div class="input-group__label">
+                                    <label for="body">Кузов</label>
+                                 </div>
                                 <div class="input_group__select-cont">
-                                    <select name="" id="" class="input-group__select">
+                                    <select name="Body" id="body" class="input-group__select">
+                                        <option value="" class="input-group__option">Седан</option>
                                         <option value="" class="input-group__option"></option>
                                         <option value="" class="input-group__option"></option>
                                         <option value="" class="input-group__option"></option>
@@ -52,14 +69,17 @@
                                         <option value="" class="input-group__option"></option>
                                         <option value="" class="input-group__option"></option>
                                         <option value="" class="input-group__option"></option>
-                                        <option value="" class="input-group__option"></option>
+                                        <option disabled selected value=""></option>
                                     </select>
                                 </div>
                             </div>
                             <div class="form__input-group">
-                                <div class="input-group__label"><label for=""></label></div>
+                                <div class="input-group__label">
+                                    <label for="manufacturer">Виробник</label>
+                                </div>
                                 <div class="input_group__select-cont">
-                                    <select name="" id="" class="input-group__select">
+                                    <select name="Manufacturer" id="manufacturer" class="input-group__select">
+                                        <option value="" class="input-group__option">Германія</option>
                                         <option value="" class="input-group__option"></option>
                                         <option value="" class="input-group__option"></option>
                                         <option value="" class="input-group__option"></option>
@@ -69,31 +89,17 @@
                                         <option value="" class="input-group__option"></option>
                                         <option value="" class="input-group__option"></option>
                                         <option value="" class="input-group__option"></option>
-                                        <option value="" class="input-group__option"></option>
+                                        <option disabled selected value=""></option>
                                     </select>
                                 </div>
                             </div>
                             <div class="form__input-group">
-                                <div class="input-group__label"><label for=""></label></div>
-                                <div class="input_group__select-cont">
-                                    <select name="" id="" class="input-group__select">
-                                        <option value="" class="input-group__option"></option>
-                                        <option value="" class="input-group__option"></option>
-                                        <option value="" class="input-group__option"></option>
-                                        <option value="" class="input-group__option"></option>
-                                        <option value="" class="input-group__option"></option>
-                                        <option value="" class="input-group__option"></option>
-                                        <option value="" class="input-group__option"></option>
-                                        <option value="" class="input-group__option"></option>
-                                        <option value="" class="input-group__option"></option>
-                                        <option value="" class="input-group__option"></option>
-                                    </select>
+                                <div class="input-group__label">
+                                    <label for="fuel">Паливо</label>
                                 </div>
-                            </div>
-                            <div class="form__input-group">
-                                <div class="input-group__label"><label for=""></label></div>
                                 <div class="input_group__select-cont">
-                                    <select name="" id="" class="input-group__select">
+                                    <select name="Fuel" id="fuel" class="input-group__select">
+                                        <option value="" class="input-group__option">Бензин</option>
                                         <option value="" class="input-group__option"></option>
                                         <option value="" class="input-group__option"></option>
                                         <option value="" class="input-group__option"></option>
@@ -103,16 +109,33 @@
                                         <option value="" class="input-group__option"></option>
                                         <option value="" class="input-group__option"></option>
                                         <option value="" class="input-group__option"></option>
-                                        <option value="" class="input-group__option"></option>
+                                        <option disabled selected value=""></option>
                                     </select>
                                 </div>
                             </div>
                         </div>
-                        <div class="form__part">
+                        <div class="form__part form__part--fields">
+                            <div class="form__input-group form__input-group--range">
+                                <div class="input_group__range-cont">
+                                    <div class="input-group__label input-group__label--range">
+                                        <label for="">Рік від</label>
+                                    </div>
+                                    <input id="year_from" type="number" min="1990" max="2024" step="1" value="2024" class="input-group__number">
+                                </div>
+                                <div class="input_group__range-cont">
+                                    <div class="input-group__label input-group__label--range">
+                                        <label for="">Рік до</label>
+                                    </div>
+                                    <input id="year_to" type="number" min="1990" max="2024" step="1" value="2024" class="input-group__number">
+                                </div>
+                            </div>
                             <div class="form__input-group">
-                                <div class="input-group__label"><label for=""></label></div>
+                                <div class="input-group__label">
+                                    <label for="gearbox">Коробка</label>
+                                 </div>
                                 <div class="input_group__select-cont">
-                                    <select name="" id="" class="input-group__select">
+                                    <select name="Gearbox" id="gearbox" class="input-group__select">
+                                        <option value="" class="input-group__option">Автомат</option>
                                         <option value="" class="input-group__option"></option>
                                         <option value="" class="input-group__option"></option>
                                         <option value="" class="input-group__option"></option>
@@ -122,14 +145,17 @@
                                         <option value="" class="input-group__option"></option>
                                         <option value="" class="input-group__option"></option>
                                         <option value="" class="input-group__option"></option>
-                                        <option value="" class="input-group__option"></option>
+                                        <option disabled selected value=""></option>
                                     </select>
                                 </div>
                             </div>
                             <div class="form__input-group">
-                                <div class="input-group__label"><label for=""></label></div>
+                                <div class="input-group__label">
+                                    <label for="colour">Колір</label>
+                                </div>
                                 <div class="input_group__select-cont">
-                                    <select name="" id="" class="input-group__select">
+                                    <select name="Colour" id="colour" class="input-group__select">
+                                        <option value="" class="input-group__option">Чорний металік</option>
                                         <option value="" class="input-group__option"></option>
                                         <option value="" class="input-group__option"></option>
                                         <option value="" class="input-group__option"></option>
@@ -139,31 +165,17 @@
                                         <option value="" class="input-group__option"></option>
                                         <option value="" class="input-group__option"></option>
                                         <option value="" class="input-group__option"></option>
-                                        <option value="" class="input-group__option"></option>
+                                        <option disabled selected value=""></option>
                                     </select>
                                 </div>
                             </div>
                             <div class="form__input-group">
-                                <div class="input-group__label"><label for=""></label></div>
-                                <div class="input_group__select-cont">
-                                    <select name="" id="" class="input-group__select">
-                                        <option value="" class="input-group__option"></option>
-                                        <option value="" class="input-group__option"></option>
-                                        <option value="" class="input-group__option"></option>
-                                        <option value="" class="input-group__option"></option>
-                                        <option value="" class="input-group__option"></option>
-                                        <option value="" class="input-group__option"></option>
-                                        <option value="" class="input-group__option"></option>
-                                        <option value="" class="input-group__option"></option>
-                                        <option value="" class="input-group__option"></option>
-                                        <option value="" class="input-group__option"></option>
-                                    </select>
+                                <div class="input-group__label">
+                                    <label for="generation">Покоління</label>
                                 </div>
-                            </div>
-                            <div class="form__input-group">
-                                <div class="input-group__label"><label for=""></label></div>
                                 <div class="input_group__select-cont">
-                                    <select name="" id="" class="input-group__select">
+                                    <select name="Generation" id="generation" class="input-group__select">
+                                        <option value="" class="input-group__option">7е покоління</option>
                                         <option value="" class="input-group__option"></option>
                                         <option value="" class="input-group__option"></option>
                                         <option value="" class="input-group__option"></option>
@@ -173,7 +185,7 @@
                                         <option value="" class="input-group__option"></option>
                                         <option value="" class="input-group__option"></option>
                                         <option value="" class="input-group__option"></option>
-                                        <option value="" class="input-group__option"></option>
+                                        <option disabled selected value=""></option>
                                     </select>
                                 </div>
                             </div>
@@ -185,44 +197,28 @@
                                 <h3 class="form__part-name">Стан</h3>
                             </div>
                             <div class="form__input-group">
-                                <input type="checkbox" class="input-group__checkbox">
-                                <div class="input-group__label"><label for=""></label></div>
+                                <input name="New" id="checkbox_1" type="checkbox" class="input-group__checkbox">
+                                <div class="input-group__label"><label for="checkbox_1">Нова</label></div>
                             </div>
                             <div class="form__input-group">
-                                <input type="checkbox" class="input-group__checkbox">
-                                <div class="input-group__label"><label for=""></label></div>
+                                <input name="Used" id="checkbox_2" type="checkbox" class="input-group__checkbox">
+                                <div class="input-group__label"><label for="checkbox_2">Б\У</label></div>
                             </div>
                             <div class="form__input-group">
-                                <input type="checkbox" class="input-group__checkbox">
-                                <div class="input-group__label"><label for=""></label></div>
+                                <input name="Customs_clearance" id="checkbox_3" type="checkbox" class="input-group__checkbox">
+                                <div class="input-group__label"><label for="checkbox_3">Розмитненна</label></div>
                             </div>
                             <div class="form__input-group">
-                                <input type="checkbox" class="input-group__checkbox">
-                                <div class="input-group__label"><label for=""></label></div>
+                                <input name="No_ustoms_clearance" id="checkbox_4" type="checkbox" class="input-group__checkbox">
+                                <div class="input-group__label"><label for="checkbox_4">Нерозмитненна</label></div>
                             </div>
                             <div class="form__input-group">
-                                <input type="checkbox" class="input-group__checkbox">
-                                <div class="input-group__label"><label for=""></label></div>
+                                <input name="After_accident" id="checkbox_5" type="checkbox" class="input-group__checkbox">
+                                <div class="input-group__label"><label for="checkbox_5">Після дтп</label></div>
                             </div>
                             <div class="form__input-group">
-                                <input type="checkbox" class="input-group__checkbox">
-                                <div class="input-group__label"><label for=""></label></div>
-                            </div>
-                            <div class="form__input-group">
-                                <input type="checkbox" class="input-group__checkbox">
-                                <div class="input-group__label"><label for=""></label></div>
-                            </div>
-                            <div class="form__input-group">
-                                <input type="checkbox" class="input-group__checkbox">
-                                <div class="input-group__label"><label for=""></label></div>
-                            </div>
-                            <div class="form__input-group">
-                                <input type="checkbox" class="input-group__checkbox">
-                                <div class="input-group__label"><label for=""></label></div>
-                            </div>
-                            <div class="form__input-group">
-                                <input type="checkbox" class="input-group__checkbox">
-                                <div class="input-group__label"><label for=""></label></div>
+                                <input name="Repainted" id="checkbox_6" type="checkbox" class="input-group__checkbox">
+                                <div class="input-group__label"><label for="checkbox_6">Перефарбована</label></div>
                             </div>
                         </div>
                         <div class="form__part form__part--horizontal">
@@ -230,44 +226,36 @@
                                 <h3 class="form__part-name">Комфорт</h3>
                             </div>
                             <div class="form__input-group">
-                                <input type="checkbox" class="input-group__checkbox">
-                                <div class="input-group__label"><label for=""></label></div>
+                                <input name="Sunroof" id="checkbox_11" type="checkbox" class="input-group__checkbox">
+                                <div class="input-group__label"><label for="checkbox_11">Люк</label></div>
                             </div>
                             <div class="form__input-group">
-                                <input type="checkbox" class="input-group__checkbox">
-                                <div class="input-group__label"><label for=""></label></div>
+                                <input name="Onboard_computer" id="checkbox_12" type="checkbox" class="input-group__checkbox">
+                                <div class="input-group__label"><label for="checkbox_12">Бортовий комп'ютер</label></div>
                             </div>
                             <div class="form__input-group">
-                                <input type="checkbox" class="input-group__checkbox">
-                                <div class="input-group__label"><label for=""></label></div>
+                                <input name="Rain_sensor" id="checkbox_13" type="checkbox" class="input-group__checkbox">
+                                <div class="input-group__label"><label for="checkbox_13">Датчик дощу</label></div>
                             </div>
                             <div class="form__input-group">
-                                <input type="checkbox" class="input-group__checkbox">
-                                <div class="input-group__label"><label for=""></label></div>
+                                <input name="Heated_mirrors" id="checkbox_14" type="checkbox" class="input-group__checkbox">
+                                <div class="input-group__label"><label for="checkbox_14">Підігрів дзеркал</label></div>
                             </div>
                             <div class="form__input-group">
-                                <input type="checkbox" class="input-group__checkbox">
-                                <div class="input-group__label"><label for=""></label></div>
+                                <input name="Tinted_windows" id="checkbox_15" type="checkbox" class="input-group__checkbox">
+                                <div class="input-group__label"><label for="checkbox_15">Тоновані вікна</label></div>
                             </div>
                             <div class="form__input-group">
-                                <input type="checkbox" class="input-group__checkbox">
-                                <div class="input-group__label"><label for=""></label></div>
+                                <input name="Start_stop_button" id="checkbox_16" type="checkbox" class="input-group__checkbox">
+                                <div class="input-group__label"><label for="checkbox_16">Запуск двигуна з кнопки</label></div>
                             </div>
                             <div class="form__input-group">
-                                <input type="checkbox" class="input-group__checkbox">
-                                <div class="input-group__label"><label for=""></label></div>
+                                <input name="Cruise_control" id="checkbox_17" type="checkbox" class="input-group__checkbox">
+                                <div class="input-group__label"><label for="checkbox_17">Круїз контроль</label></div>
                             </div>
                             <div class="form__input-group">
-                                <input type="checkbox" class="input-group__checkbox">
-                                <div class="input-group__label"><label for=""></label></div>
-                            </div>
-                            <div class="form__input-group">
-                                <input type="checkbox" class="input-group__checkbox">
-                                <div class="input-group__label"><label for=""></label></div>
-                            </div>
-                            <div class="form__input-group">
-                                <input type="checkbox" class="input-group__checkbox">
-                                <div class="input-group__label"><label for=""></label></div>
+                                <input name="Keyless_entry_system" id="checkbox_18" type="checkbox" class="input-group__checkbox">
+                                <div class="input-group__label"><label for="checkbox_18">Система доступу без ключа</label></div>
                             </div>
                         </div>
                         <div class="form__part form__part--horizontal">
@@ -275,44 +263,32 @@
                                 <h3 class="form__part-name">Безпека</h3>
                             </div>
                             <div class="form__input-group">
-                                <input type="checkbox" class="input-group__checkbox">
-                                <div class="input-group__label"><label for=""></label></div>
+                                <input name="Central_locking" id="checkbox_19" type="checkbox" class="input-group__checkbox">
+                                <div class="input-group__label"><label for="checkbox_19">Центральний замок</label></div>
                             </div>
                             <div class="form__input-group">
-                                <input type="checkbox" class="input-group__checkbox">
-                                <div class="input-group__label"><label for=""></label></div>
+                                <input name="ABS" id="checkbox_20" type="checkbox" class="input-group__checkbox">
+                                <div class="input-group__label"><label for="checkbox_20">Антиблокувальна система (ABS)</label></div>
                             </div>
                             <div class="form__input-group">
-                                <input type="checkbox" class="input-group__checkbox">
-                                <div class="input-group__label"><label for=""></label></div>
+                                <input name="ESP" id="checkbox_21" type="checkbox" class="input-group__checkbox">
+                                <div class="input-group__label"><label for="checkbox_21">Система стабілізації (ESP)</label></div>
                             </div>
                             <div class="form__input-group">
-                                <input type="checkbox" class="input-group__checkbox">
-                                <div class="input-group__label"><label for=""></label></div>
+                                <input name="Immobiliser" id="checkbox_22" type="checkbox" class="input-group__checkbox">
+                                <div class="input-group__label"><label for="checkbox_22">Імобілайзер</label></div>
                             </div>
                             <div class="form__input-group">
-                                <input type="checkbox" class="input-group__checkbox">
-                                <div class="input-group__label"><label for=""></label></div>
+                                <input name="ASR" id="checkbox_23" type="checkbox" class="input-group__checkbox">
+                                <div class="input-group__label"><label for="checkbox_23">Антипробуксовочна система (ASR)</label></div>
                             </div>
                             <div class="form__input-group">
-                                <input type="checkbox" class="input-group__checkbox">
-                                <div class="input-group__label"><label for=""></label></div>
+                                <input name="Tyre_pressure_sensor" id="checkbox_24" type="checkbox" class="input-group__checkbox">
+                                <div class="input-group__label"><label for="checkbox_24">Датчик тиску в шинах</label></div>
                             </div>
                             <div class="form__input-group">
-                                <input type="checkbox" class="input-group__checkbox">
-                                <div class="input-group__label"><label for=""></label></div>
-                            </div>
-                            <div class="form__input-group">
-                                <input type="checkbox" class="input-group__checkbox">
-                                <div class="input-group__label"><label for=""></label></div>
-                            </div>
-                            <div class="form__input-group">
-                                <input type="checkbox" class="input-group__checkbox">
-                                <div class="input-group__label"><label for=""></label></div>
-                            </div>
-                            <div class="form__input-group">
-                                <input type="checkbox" class="input-group__checkbox">
-                                <div class="input-group__label"><label for=""></label></div>
+                                <input name="Blind_spot_control" id="checkbox_25" type="checkbox" class="input-group__checkbox">
+                                <div class="input-group__label"><label for="checkbox_25">Контроль сліпих зон</label></div>
                             </div>
                         </div>
                     </div>
